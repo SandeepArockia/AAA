@@ -1,0 +1,53 @@
+QueriBot
+
+Get Survey through a simple interface
+
+Front-End:
+Back-End:
+
+Login:
+  Get ID and Password (or) Get <position> and <position> ID and Password.
+    ->Open the online feedback form, if access granted.
+                    (or)
+    ->Display 'Password Error' message. Direct to Login page.
+
+Online Feedback Form:
+  >>>Scorecard (i.e.) Rating card
+  >>>Side tab with 'individuals' to be rated.
+Upon Selection of a 'individual'. Classify rating into Self or Superior or Peer or Sub-ordinate. Beginners get rating from only Superior and Self.
+  >>>Fetch their Name and Position
+  >>>Get input for the various competency set
+            ->Competency
+            ->Business Perspective
+            ->People Safety
+            ->Problem Solving
+            ->Implementation
+            ->Continuous Improvement
+            ->Customer Centric
+            ->Empowerment& Leadership
+            ->Communication
+            ->Team Working
+            ->Accountability
+            ->Focus on Self Development
+
+Formula:
+  >>>Get input as rating A to F for various competency set
+
+
+  Priority = Importance x Performance Gap
+  Performance Gap = Current Level of Performance ÷ Desired Level of Performance(55)
+  Performance Gap=24 ÷ 55=0.436
+  Priority = 0.436 * 70%=30.52% (out of 70%)
+
+
+  >>>Calculate Rating into percent.
+  >>>Classify into
+        ->Mentor (Greater than 85%)
+        ->Performer (Between 55% to 84%)
+        ->practitioner (Between 36% to 54%)
+        ->learner (Below 35%)
+
+        i) Ave of percent
+        ii)Columnar
+        iii)Row-wise
+         
